@@ -1,10 +1,10 @@
-package sanjar.uz.finalpreperation
+package sanjar.uz.final2024january
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import sanjar.uz.finalpreperation.core.AppCache
-import sanjar.uz.finalpreperation.databinding.ActivityLoginBinding
+import sanjar.uz.final2024january.core.AppCache
+import sanjar.uz.final2024january.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding

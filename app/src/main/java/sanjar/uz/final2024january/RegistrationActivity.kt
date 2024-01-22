@@ -1,4 +1,4 @@
-package sanjar.uz.finalpreperation
+package sanjar.uz.final2024january
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="sanjar.uz.finalpreperation.ui.home.HomeFragment"
+        android:name="sanjar.uz.final2024january.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="sanjar.uz.finalpreperation.ui.dashboard.DashboardFragment"
+        android:name="sanjar.uz.final2024january.ui.dashboard.DashboardFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_dashboard" />
 </navigation>

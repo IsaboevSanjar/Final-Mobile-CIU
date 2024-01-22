@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "sanjar.uz.finalpreperation"
+    namespace = "sanjar.uz.final2024january"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "sanjar.uz.finalpreperation"
+        applicationId = "sanjar.uz.final2024january"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

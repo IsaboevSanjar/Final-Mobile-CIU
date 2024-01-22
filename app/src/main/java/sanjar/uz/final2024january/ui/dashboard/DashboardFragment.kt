@@ -1,4 +1,4 @@
-package sanjar.uz.finalpreperation.ui.dashboard
+package sanjar.uz.final2024january.ui.dashboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import sanjar.uz.finalpreperation.databinding.FragmentDashboardBinding
+import sanjar.uz.final2024january.databinding.FragmentDashboardBinding
 
 class DashboardFragment : Fragment() {
 

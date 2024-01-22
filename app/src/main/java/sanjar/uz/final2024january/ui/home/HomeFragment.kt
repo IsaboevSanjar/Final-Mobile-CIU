@@ -1,11 +1,11 @@
-package sanjar.uz.finalpreperation.ui.home
+package sanjar.uz.final2024january.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import sanjar.uz.finalpreperation.databinding.FragmentHomeBinding
+import sanjar.uz.final2024january.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package sanjar.uz.finalpreperation.core;
+package sanjar.uz.final2024january.core;
 
 import android.content.Context;
 import android.content.SharedPreferences;

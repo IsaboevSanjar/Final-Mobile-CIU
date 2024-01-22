@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F1F0F0"
-    tools:context=".ui.home.HomeFragment">
+    tools:context="sanjar.uz.final2024january.ui.home.HomeFragment">
 
     <TextView
         android:id="@+id/news_txt"

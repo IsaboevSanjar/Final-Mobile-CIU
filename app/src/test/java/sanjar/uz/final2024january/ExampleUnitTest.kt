@@ -1,4 +1,4 @@
-package sanjar.uz.finalpreperation
+package sanjar.uz.final2024january
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
