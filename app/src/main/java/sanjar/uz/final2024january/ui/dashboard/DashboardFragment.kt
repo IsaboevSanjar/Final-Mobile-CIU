@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import sanjar.uz.final2024january.core.AppCache
 import sanjar.uz.final2024january.databinding.FragmentDashboardBinding
 
 class DashboardFragment : Fragment() {
@@ -29,7 +30,7 @@ class DashboardFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-       
+        binding.name.text = AppCache.getHelper().username
     }
 
     override fun onDestroyView() {

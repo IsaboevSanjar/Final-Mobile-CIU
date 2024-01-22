@@ -27,6 +27,17 @@
             android:textColor="@color/white"
             android:textSize="22sp"
             android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
