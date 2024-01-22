@@ -1,5 +1,6 @@
 package sanjar.uz.final2024january
 
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -28,6 +29,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_home, R.id.navigation_profile
             )
         )
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(resources.getColor(R.color.black)))
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }

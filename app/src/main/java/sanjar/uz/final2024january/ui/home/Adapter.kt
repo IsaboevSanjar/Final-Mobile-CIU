@@ -3,7 +3,7 @@ package sanjar.uz.final2024january.ui.home
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
+import sanjar.uz.final2024january.R
 import sanjar.uz.final2024january.databinding.ItemsNewsBinding
 
 class Adapter : RecyclerView.Adapter<Adapter.MyViewHolder>() {
@@ -20,8 +20,7 @@ class Adapter : RecyclerView.Adapter<Adapter.MyViewHolder>() {
             binding.newsDesc.text = data.description
             binding.newsTime.text = data.time
             binding.newsTitle.text = data.title
-            Glide.with(binding.newsImg.context).load(data.img).centerCrop().into(binding.newsImg)
-
+            binding.newsImg.setImageResource(R.drawable.logo_mu)
         }
     }
 
